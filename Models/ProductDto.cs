@@ -5,10 +5,10 @@ namespace CRUDoperations.Models
     public class ProductDto
     {
         [Required]
-        public string Name { get; set; }
-        [Required]
-        public string Category { get; set; }
-        [Required]
+        public string Name { get; set; }= "";
+      
+        public string Category { get; set; }= "";
+
         public decimal Salary { get; set; }
     }
 }
